@@ -1,5 +1,5 @@
-// runRGV.cpp : 定义控制台应用程序的入口点。
-//
+// *----encoding: UTF-8----*
+
 #pragma once
 
 #include "stdafx.h"
@@ -36,7 +36,7 @@ int main()
 		cout << endl;
 	}
 
-	cout << "\n\n最终加工的零件个数为：" << rgv->sum << "个\n\n" << endl;
+	cout << "\n\n鏈�缁堝姞宸ョ殑闆朵欢涓暟涓猴細" << rgv->sum << "涓猏n\n" << endl;
 
 	delete cnc1;
 	delete cnc2;
