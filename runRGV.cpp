@@ -1,4 +1,4 @@
-﻿// *----encoding: UTF-8----*
+﻿// *----encoding: UTF-16 LE with BOM-----*
 
 #pragma once
 
