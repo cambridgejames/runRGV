@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  Cnc.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  Rgv.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  runRGV.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  正在生成代码
+  39 of 156 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  runRGV.vcxproj -> D:\Program Files (C++)\runRGV\Release\runRGV.exe
+  runRGV.vcxproj -> D:\Program Files (C++)\runRGV\Release\runRGV.pdb (Full PDB)
