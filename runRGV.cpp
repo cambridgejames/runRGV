@@ -14,24 +14,24 @@ using namespace std;
 int main() {
 	// 第一组
 	Rgv *rgv = new Rgv(20, 33, 46, 28, 31, 25);
-	int probability = 0, processTime = 560;
+	int probability = 0, processTime1 = 400, processTime2 = 378;
 
 	// 第二组
 	/*Rgv *rgv = new Rgv(23, 41, 59, 30, 35, 30);
-	int probability = 1, processTime = 580;*/
+	int probability = 1, processTime1 = 280, processTime2 = 500;*/
 
 	// 第三组
 	/*Rgv *rgv = new Rgv(18, 32, 46, 27, 32, 25);
-	int probability = 1, processTime = 545;*/
+	int probability = 1, processTime1 = 455, processTime2 = 182;*/
 
-	Cnc *cnc1 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc2 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc3 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc4 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc5 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc6 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc7 = new Cnc(processTime, probability, rgv);
-	Cnc *cnc8 = new Cnc(processTime, probability, rgv);
+	Cnc *cnc1 = new Cnc(processTime2, probability, rgv);
+	Cnc *cnc2 = new Cnc(processTime1, probability, rgv);
+	Cnc *cnc3 = new Cnc(processTime2, probability, rgv);
+	Cnc *cnc4 = new Cnc(processTime1, probability, rgv);
+	Cnc *cnc5 = new Cnc(processTime2, probability, rgv);
+	Cnc *cnc6 = new Cnc(processTime1, probability, rgv);
+	Cnc *cnc7 = new Cnc(processTime2, probability, rgv);
+	Cnc *cnc8 = new Cnc(processTime1, probability, rgv);
 
 	for (int systemTime = 0; systemTime < 28800; systemTime++) {
 		cout << "System Time: " << systemTime << "s" << endl;

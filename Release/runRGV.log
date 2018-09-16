@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  Cnc.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  Rgv.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  runRGV.cpp
+d:\program files (c++)\runrgv\runrgv\Cnc.h(6): warning C4091: “extern ”: 没有声明变量时忽略“Rgv”的左侧
+  正在生成代码
+  All 155 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  runRGV.vcxproj -> D:\Program Files (C++)\runRGV\Release\runRGV.exe
+  runRGV.vcxproj -> D:\Program Files (C++)\runRGV\Release\runRGV.pdb (Full PDB)
