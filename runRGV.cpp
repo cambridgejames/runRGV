@@ -13,16 +13,16 @@ using namespace std;
 
 int main() {
 	// 第一组
-	Rgv *rgv = new Rgv(20, 33, 46, 28, 31, 25);
-	int probability = 0, processTime = 560;
+	/*Rgv *rgv = new Rgv(20, 33, 46, 28, 31, 25);
+	int probability = 1, processTime = 560;*/
 
 	// 第二组
 	/*Rgv *rgv = new Rgv(23, 41, 59, 30, 35, 30);
 	int probability = 1, processTime = 580;*/
 
 	// 第三组
-	/*Rgv *rgv = new Rgv(18, 32, 46, 27, 32, 25);
-	int probability = 1, processTime = 545;*/
+	Rgv *rgv = new Rgv(18, 32, 46, 27, 32, 25);
+	int probability = 1, processTime = 545;
 
 	Cnc *cnc1 = new Cnc(processTime, probability, rgv);
 	Cnc *cnc2 = new Cnc(processTime, probability, rgv);
