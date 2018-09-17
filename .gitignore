@@ -1,4 +1,4 @@
 *.vcxproj
 *.filters
 /Debug
-/Realse
+/Release
